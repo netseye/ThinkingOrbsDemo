@@ -3,10 +3,14 @@
 A faithful Swift / SwiftUI port of [`thinking-orbs`](https://github.com/Jakubantalik/thinking-orbs) — a set of nine honestly-3D, point-cloud "thinking" orbs for AI assistants, plus the shimmering labels that go with them.
 
 <p align="center">
-  <video src="docs/demo.mp4" poster="docs/demo.png" controls muted loop playsinline width="300"></video>
+  <img src="docs/demo.gif" alt="Thinking Orbs — animated demo" width="300">
 </p>
 
 <p align="center"><em>Dark mode. Every orb animates continuously; labels carry a left→right light sweep every 2 s.</em></p>
+
+> 📹 Higher-quality H.264 clip: [`docs/demo.mp4`](docs/demo.mp4) · single poster frame: [`docs/demo.png`](docs/demo.png)
+>
+> *(GitHub's README sanitizer strips `<video>` tags whose `src` is a relative path, so the animated preview is a GIF; click the mp4 link for full-resolution playback.)*
 
 ## What's inside
 
@@ -79,8 +83,9 @@ ThinkingOrbsDemo/
 ├── DemoView.swift        # gallery + playground
 └── ThinkingOrbsDemoApp.swift
 docs/
-├── demo.mp4              # the recording above
-└── demo.png              # poster frame
+├── demo.gif              # animated preview (shown above)
+├── demo.mp4              # higher-quality H.264 clip
+└── demo.png              # single poster frame
 ```
 
 ## Credits
